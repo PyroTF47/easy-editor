@@ -12,14 +12,6 @@ from PyQt5.QtGui import QPixmap
 from PIL import Image 
 from PIL import ImageFilter
 
-app = QApplication([])
-win = QWidget()       
-win.resize(700, 500) 
-win.setWindowTitle('Easy Editor')
-lb_image = QLabel("Картинка")
-btn_dir = QPushButton("Папка")
-lw_files = QListWidget()
- 
 btn_left = QPushButton("Лево")
 btn_right = QPushButton("Право")
 btn_flip = QPushButton("Зеркало")
